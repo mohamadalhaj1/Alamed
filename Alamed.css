@@ -1,0 +1,53 @@
+pre {
+  color: blueviolet;
+}
+body {
+  padding-left: 50px;
+
+  background: black;
+  color: gold;
+  
+  background-repeat: no-repeat right;
+}
+select {
+  color: gold;
+  background: black;
+}
+input {
+  color: gold;
+  background: rgb(34, 33, 34);
+  border: 100px;
+}
+input:hover::placeholder{
+  font-size: 15px;
+  transition: 0.5s;  
+}
+.a::before{
+top: 90%;
+  content: "";
+  position: absolute;
+  border-left: 10px solid darkred;
+  border-bottom: 10px solid gold;
+  border-right: 10px solid green;
+  border-top: 10px solid mediumpurple;
+}
+.b::before{
+  top: 90%;
+  left: 10%;
+    content: "";
+    position: absolute;
+    border-left: 10px solid darkred;
+    border-bottom: 10px solid gold;
+    border-right: 10px solid green;
+    border-top: 10px solid mediumpurple;
+  }
+  .c::before{
+    top: 90%;
+    right: 10%;
+      content: "";
+      position: absolute;
+      border-left: 10px solid darkred;
+      border-bottom: 10px solid gold;
+      border-right: 10px solid green;
+      border-top: 10px solid mediumpurple;
+    }
